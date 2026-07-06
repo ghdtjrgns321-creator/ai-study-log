@@ -9,3 +9,7 @@
 | 2026-07-04 | ai-concept | AI 에이전트 평가(Agent Evals)·LLM-as-a-Judge |
 | 2026-07-05 | ai-concept | 컨텍스트 엔지니어링(Context Engineering)     |
 | 2026-07-06 | ai-concept | 에이전틱 RAG(Agentic RAG)                    |
+| 2026-07-06 | claude-code | 백그라운드 서브에이전트와 알림 훅            |
+| 2026-07-06 | trend      | Claude Sonnet 5 출시                         |
+| 2026-07-06 | ai-concept | 에이전트 메모리 아키텍처                     |
+| 2026-07-06 | audit      | 국내 회계법인 AI 감사 도입과 실무 체감       |
