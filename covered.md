@@ -17,3 +17,7 @@
 | 2026-07-07 | ai-concept | 멀티에이전트 오케스트레이션                 |
 | 2026-07-07 | audit      | EY한영 AI 에이전트 감사 전면 도입           |
 | 2026-07-07 | trend      | GPT-5.6 정부 승인 파트너 제한 출시          |
+| 2026-07-08 | claude-code | MCP 2026 스펙 개편(Stateless Core)          |
+| 2026-07-08 | ai-concept | 가디언 에이전트(Guardian Agent)              |
+| 2026-07-08 | audit      | AI 감사인증(AI Assurance)과 ISO/IEC 42001    |
+| 2026-07-08 | trend      | 중국산 오픈소스 LLM의 기업 확산              |
