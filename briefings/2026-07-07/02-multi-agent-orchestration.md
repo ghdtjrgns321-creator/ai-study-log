@@ -74,9 +74,13 @@ Databricks 블로그는 2026년 엔터프라이즈 AI 에이전트 동향에서 
 ### Enterprise AI agent trends (Databricks) — 영어 / 텍스트 / 중급
 2만여 조직 데이터를 근거로 한 2026년 엔터프라이즈 에이전트 동향 보고다. 여러 특화 에이전트를 조율하는 슈퍼바이저 에이전트가 사용량의 37%를 차지하고, 멀티에이전트 오케스트레이션이 327% 성장했다. 거버넌스 도구를 쓰는 기업은 그렇지 않은 곳보다 12배 이상 많은 AI 프로젝트를 프로덕션에 올리고, 평가(evaluation) 도구를 쓰는 조직은 약 6배 많은 시스템을 실운영에 진입시킨다 — 거버넌스·평가가 오버헤드가 아니라 확장의 토대라는 것이다. 챗봇에서 실제 기능하는 에이전트로의 전환에서 관건은 "안전하고 통제된 방식으로 실제 가치를 내는 것"이라고 짚는다. 헬스케어는 의학 문헌 분석, 자동차·에너지는 예측 정비처럼 산업별로 배치 양상이 갈린다.
 
+### 멀티 에이전트 시스템 오케스트레이션 패턴 5가지 완전 정복 (YouTube) — 한국어 / 유튜브 / 중급
+ReAct·Plan-and-Execute·Multi-Agent Collaboration·Reflection·Tool Use 5가지 패턴을 각각 실행 흐름과 LangGraph 코드로 설명하는 강의. 패턴별 강약점 비교표와 "어떤 상황에 어떤 패턴을 쓸지"를 판단하는 결정 트리, 그리고 두 패턴을 조합하는 하이브리드 사례(ReAct+Reflection, Plan-and-Execute+Tool Use)까지 다룬다. 자막을 직접 확인해 전체 강의 흐름을 정리했다 — **[상세 요약 보기](videos/multi-agent-orchestration-5-patterns.md)**.
+
+### AI 에이전트 엔지니어링 | 5강. 오케스트레이션 (YouTube) — 한국어 / 유튜브 / 중급
+같은 오케스트레이션 주제를 패턴이 아니라 구성요소 중심으로 다루는 강의. 에이전트 유형 6가지(반사형·ReAct·Plan-and-Execute·쿼리 분해·성찰형·심층 리서치) 분류, 도구 선택 3방식(표준·시멘틱·계층적), 도구 실행 토폴로지(단일·병렬·체인·그래프), 컨텍스트 엔지니어링 원칙을 다룬다. 위 오케스트레이션 강의와 짝을 이뤄 "무엇을 쓸지"와 "어떻게 조립할지"를 상호 보완한다 — **[상세 요약 보기](videos/ai-agent-engineering-lecture5-orchestration.md)**.
+
 **그 외 참고**
-- [멀티 에이전트 시스템 오케스트레이션 패턴 5가지 완전 정복 (YouTube)](https://www.youtube.com/watch?v=GycnTkYEBYo) — 한국어, 유튜브, 중급
-- [AI 에이전트 엔지니어링 | 5강. 오케스트레이션 (YouTube)](https://www.youtube.com/watch?v=3MPEFYmprAM) — 한국어, 유튜브, 중급
 - [2026년 기업 AI 전환, 멀티에이전트 시스템이 필요한 이유 (SK AX)](https://www.skax.co.kr/insight/trend/3626) — 한국어, 텍스트, 중급
 
 ## 자가 점검 질문
