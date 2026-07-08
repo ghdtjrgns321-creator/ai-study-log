@@ -21,3 +21,7 @@
 | 2026-07-08 | ai-concept | 가디언 에이전트(Guardian Agent)              |
 | 2026-07-08 | audit      | AI 감사인증(AI Assurance)과 ISO/IEC 42001    |
 | 2026-07-08 | trend      | 중국산 오픈소스 LLM의 기업 확산              |
+| 2026-07-09 | audit      | 삼일PwC AI Accountant(회계기준 특화 RAG 챗봇) |
+| 2026-07-09 | claude-code | Claude Code 권한모드 기본값 Auto→Manual 전환 |
+| 2026-07-09 | audit      | 한국 AI기본법 시행과 회계법인의 대응(고영향 AI·생성형 AI 규제) |
+| 2026-07-09 | ai-concept | 확률적 부정확성(Stochastic Inaccuracy)과 금융 RAG 신뢰성 보정 |
