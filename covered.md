@@ -25,3 +25,7 @@
 | 2026-07-09 | claude-code | Claude Code 권한모드 기본값 Auto→Manual 전환 |
 | 2026-07-09 | audit      | 한국 AI기본법 시행과 회계법인의 대응(고영향 AI·생성형 AI 규제) |
 | 2026-07-09 | ai-concept | 확률적 부정확성(Stochastic Inaccuracy)과 금융 RAG 신뢰성 보정 |
+| 2026-07-10 | claude-code | Claude Code 샌드박싱(Sandboxing)과 승인 피로 해소 |
+| 2026-07-10 | ai-concept | AI 에이전트 관측성(Agent Observability)과 트레이싱 |
+| 2026-07-10 | audit      | AI 기반 AP/AR 사기와 딥페이크 인보이스 대응 |
+| 2026-07-10 | trend      | 컴퓨터 사용 에이전트(Computer Use Agent)의 상용화 |
