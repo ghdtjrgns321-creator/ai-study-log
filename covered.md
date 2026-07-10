@@ -29,3 +29,7 @@
 | 2026-07-10 | ai-concept | AI 에이전트 관측성(Agent Observability)과 트레이싱 |
 | 2026-07-10 | audit      | AI 기반 AP/AR 사기와 딥페이크 인보이스 대응 |
 | 2026-07-10 | trend      | 컴퓨터 사용 에이전트(Computer Use Agent)의 상용화 |
+| 2026-07-11 | claude-code | 클로드 코드 아티팩트(Claude Code Artifacts)      |
+| 2026-07-11 | ai-concept | A2A(Agent2Agent) 프로토콜                     |
+| 2026-07-11 | audit      | 지속적 감사(Continuous Auditing)와 AI 상시 모니터링 |
+| 2026-07-11 | trend      | Grok 4.5 공개 출시(SpaceXAI)                  |
