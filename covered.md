@@ -33,3 +33,7 @@
 | 2026-07-11 | ai-concept | A2A(Agent2Agent) 프로토콜                     |
 | 2026-07-11 | audit      | 지속적 감사(Continuous Auditing)와 AI 상시 모니터링 |
 | 2026-07-11 | trend      | Grok 4.5 공개 출시(SpaceXAI)                  |
+| 2026-07-12 | claude-code | 클로드 코드 중첩 서브에이전트(Nested Sub-agents, 깊이 5단계 제한) |
+| 2026-07-12 | ai-concept | 적응적 추론과 추론 예산(Adaptive Reasoning / Test-Time Compute Budget) |
+| 2026-07-12 | audit      | PCAOB의 기술·AI 활용 감사 기준 개정(Technology-Assisted Analysis) |
+| 2026-07-12 | trend      | GPT-5.6 전면 공개(GA) 전환과 ChatGPT Work 출시 |
