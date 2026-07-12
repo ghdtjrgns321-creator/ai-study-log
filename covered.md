@@ -37,3 +37,8 @@
 | 2026-07-12 | ai-concept | 적응적 추론과 추론 예산(Adaptive Reasoning / Test-Time Compute Budget) |
 | 2026-07-12 | audit      | PCAOB의 기술·AI 활용 감사 기준 개정(Technology-Assisted Analysis) |
 | 2026-07-12 | trend      | GPT-5.6 전면 공개(GA) 전환과 ChatGPT Work 출시 |
+| 2026-07-13 | claude-code | 다이나믹 워크플로우(Dynamic Workflows)        |
+| 2026-07-13 | ai-concept | 소형언어모델(SLM)의 엔터프라이즈·감사 도입    |
+| 2026-07-13 | audit      | IAASB 국제감사기준 AI 비권위적 지침 개발      |
+| 2026-07-13 | audit      | KPMG 미국 감사 파트너 약 10% 감원과 AI發 인력구조 재편 |
+| 2026-07-13 | trend      | EU AI Act 2단계 시행과 GPAI 벌금 집행권한 발효 |
