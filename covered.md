@@ -42,3 +42,7 @@
 | 2026-07-13 | audit      | IAASB 국제감사기준 AI 비권위적 지침 개발      |
 | 2026-07-13 | audit      | KPMG 미국 감사 파트너 약 10% 감원과 AI發 인력구조 재편 |
 | 2026-07-13 | trend      | EU AI Act 2단계 시행과 GPAI 벌금 집행권한 발효 |
+| 2026-07-14 | claude-code | Claude Code 인앱 브라우저(In-app Browser)     |
+| 2026-07-14 | ai-concept | AI 레드티밍(AI Red-teaming)                   |
+| 2026-07-14 | audit      | KPMG 감사 오케스트레이션 에이전트(Orchestration Agent) |
+| 2026-07-14 | trend      | Gemini 3.5 Flash 출시                         |
