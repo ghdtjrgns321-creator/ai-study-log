@@ -46,3 +46,7 @@
 | 2026-07-14 | ai-concept | AI 레드티밍(AI Red-teaming)                   |
 | 2026-07-14 | audit      | KPMG 감사 오케스트레이션 에이전트(Orchestration Agent) |
 | 2026-07-14 | trend      | Gemini 3.5 Flash 출시                         |
+| 2026-07-15 | claude-code | 클로드 코드 에이전트 팀즈(Agent Teams)        |
+| 2026-07-15 | ai-concept | 엔터프라이즈 제너럴 인텔리전스(EGI)와 에이전틱 시뮬레이션 테스팅 |
+| 2026-07-15 | audit      | KPMG AI 환각 보고서 철회 사건(바이브 사이팅)  |
+| 2026-07-15 | trend      | SpaceX의 Cursor 인수($60B)와 AI 코딩 시장 수직계열화 |
