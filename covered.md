@@ -50,3 +50,7 @@
 | 2026-07-15 | ai-concept | 엔터프라이즈 제너럴 인텔리전스(EGI)와 에이전틱 시뮬레이션 테스팅 |
 | 2026-07-15 | audit      | KPMG AI 환각 보고서 철회 사건(바이브 사이팅)  |
 | 2026-07-15 | trend      | SpaceX의 Cursor 인수($60B)와 AI 코딩 시장 수직계열화 |
+| 2026-07-16 | claude-code | 클로드 코드 폴백 모델(Fallback Models)          |
+| 2026-07-16 | ai-concept | 비인간 신원 관리(Non-Human Identity Governance) |
+| 2026-07-16 | audit      | 딜로이트 옴니아 연결형 에이전틱 인텔리전스(Connected Agentic Intelligence) |
+| 2026-07-16 | trend      | 앤트로픽-삼성전자 커스텀 AI 추론칩 협력 논의     |
