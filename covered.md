@@ -54,3 +54,7 @@
 | 2026-07-16 | ai-concept | 비인간 신원 관리(Non-Human Identity Governance) |
 | 2026-07-16 | audit      | 딜로이트 옴니아 연결형 에이전틱 인텔리전스(Connected Agentic Intelligence) |
 | 2026-07-16 | trend      | 앤트로픽-삼성전자 커스텀 AI 추론칩 협력 논의     |
+| 2026-07-17 | claude-code | 서브에이전트 텍스트·사고 포워딩(--forward-subagent-text) |
+| 2026-07-17 | ai-concept | 에이전트옵스(AgentOps)                        |
+| 2026-07-17 | audit      | COSO 생성형 AI 내부통제 가이던스(Achieving Effective Internal Control Over Generative AI) |
+| 2026-07-17 | trend      | 메타 뮤즈 스파크 1.1(Meta Muse Spark 1.1) 출시  |
