@@ -58,3 +58,7 @@
 | 2026-07-17 | ai-concept | 에이전트옵스(AgentOps)                        |
 | 2026-07-17 | audit      | COSO 생성형 AI 내부통제 가이던스(Achieving Effective Internal Control Over Generative AI) |
 | 2026-07-17 | trend      | 메타 뮤즈 스파크 1.1(Meta Muse Spark 1.1) 출시  |
+| 2026-07-18 | claude-code | 보안 가이던스 플러그인(Security-Guidance Plugin) |
+| 2026-07-18 | ai-concept | 에이전틱 컨텍스트 엔지니어링(ACE)              |
+| 2026-07-18 | audit      | 국제지속가능성인증기준 ISSA 5000과 AI 기반 ESG 데이터 검증 |
+| 2026-07-18 | trend      | Gemini 3.5 Pro 출시                            |
