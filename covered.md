@@ -62,3 +62,7 @@
 | 2026-07-18 | ai-concept | 에이전틱 컨텍스트 엔지니어링(ACE)              |
 | 2026-07-18 | audit      | 국제지속가능성인증기준 ISSA 5000과 AI 기반 ESG 데이터 검증 |
 | 2026-07-18 | trend      | Gemini 3.5 Pro 출시                            |
+| 2026-07-19 | claude-code | 클로드 코드 체크업(/checkup, 구 /doctor 재구축)  |
+| 2026-07-19 | ai-concept | LLM 라우팅·캐스케이드(멀티모델 오케스트레이션 비용 최적화) |
+| 2026-07-19 | audit      | XBRL 공시 의무화 확대와 AI 기반 자동 태깅        |
+| 2026-07-19 | trend      | 키미 K3(Kimi K3, Moonshot AI) 출시              |
