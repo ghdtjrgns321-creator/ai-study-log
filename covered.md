@@ -66,3 +66,7 @@
 | 2026-07-19 | ai-concept | LLM 라우팅·캐스케이드(멀티모델 오케스트레이션 비용 최적화) |
 | 2026-07-19 | audit      | XBRL 공시 의무화 확대와 AI 기반 자동 태깅        |
 | 2026-07-19 | trend      | 키미 K3(Kimi K3, Moonshot AI) 출시              |
+| 2026-07-20 | claude-code | 클로드 코드 안정성·안전성 업데이트(EndConversation·진행 하트비트) |
+| 2026-07-20 | ai-concept | 에이전틱 커머스 프로토콜(Agentic Commerce Protocol, AP2·UCP·ACP) |
+| 2026-07-20 | audit      | AI 모델카드·데이터 리니지 감사 요구사항          |
+| 2026-07-20 | trend      | DeepSeek V4 정식 출시                            |
