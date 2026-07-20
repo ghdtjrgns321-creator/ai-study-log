@@ -70,3 +70,8 @@
 | 2026-07-20 | ai-concept | 에이전틱 커머스 프로토콜(Agentic Commerce Protocol, AP2·UCP·ACP) |
 | 2026-07-20 | audit      | AI 모델카드·데이터 리니지 감사 요구사항          |
 | 2026-07-20 | trend      | DeepSeek V4 정식 출시                            |
+| 2026-07-21 | claude-code | 에이전트 뷰 관측성 개선(Agent View Observability)  |
+| 2026-07-21 | ai-concept | Contextual Retrieval과 Late Chunking(RAG 청킹 고도화) |
+| 2026-07-21 | audit      | PwC 글로벌 넥스트 제너레이션 오딧(종단간 AI 감사 자동화) |
+| 2026-07-21 | audit      | 삼일PwC REZE 논문 ACL 2026 메인 컨퍼런스 등재       |
+| 2026-07-21 | trend      | Thinking Machines Lab 첫 모델 잉클링(Inkling) 출시  |
