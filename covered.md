@@ -75,3 +75,6 @@
 | 2026-07-21 | audit      | PwC 글로벌 넥스트 제너레이션 오딧(종단간 AI 감사 자동화) |
 | 2026-07-21 | audit      | 삼일PwC REZE 논문 ACL 2026 메인 컨퍼런스 등재       |
 | 2026-07-21 | trend      | Thinking Machines Lab 첫 모델 잉클링(Inkling) 출시  |
+| 2026-07-22 | claude-code | MCP 도구 호출 자동 백그라운드 전환(Automatic MCP Tool Backgrounding) |
+| 2026-07-22 | ai-concept | 확산 언어모델(Diffusion Language Model, DLM)        |
+| 2026-07-22 | trend      | Gemini 3.6 Flash 출시                               |
