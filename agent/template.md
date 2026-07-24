@@ -8,7 +8,7 @@
 
 # 오늘의 AI 개념: {개념 이름}(영문 병기)
 
-> 작성일: YYYY-MM-DD · 분류: {claude-code | ai-concept | audit | trend}
+> 작성일: YYYY-MM-DD · 분류: {agentic-coding | ai-concept | audit | trend}
 
 ## 한 줄 정의
 
