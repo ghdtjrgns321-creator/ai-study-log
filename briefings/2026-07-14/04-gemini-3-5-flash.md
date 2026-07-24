@@ -1,67 +1,93 @@
 # 오늘의 AI 개념: Gemini 3.5 Flash 출시
 
-> 작성일: 2026-07-14 · 분류: trend
+> 작성일: 2026-07-14 (2026-07-24 심화 개편) · 분류: trend
 
 ## 한 줄 정의
 
-구글이 2026년 5월 공개한 신형 경량·고속 AI 모델로, 속도를 크게 높이면서도 코딩·에이전트 작업 성능을 이전 세대보다 끌어올렸다.
+구글이 2026년 5월 공개한 신형 경량·고속 AI 모델로, 속도를 크게 높이면서도 코딩·에이전트 작업 성능을 이전 세대 상위 모델(Gemini 3.1 Pro)보다 끌어올렸다.
 
 ## 쉬운 설명
 
-기존 고성능 모델이 짐을 가득 싣고 천천히 움직이는 대형 트럭이라면, Flash는 짐을 나눠 빠르게 여러 번 왕복하는 소형 트럭에 가깝다. 다른 최상위 모델보다 초당 출력 토큰 수 기준으로 4배 빠르면서도, 코딩·에이전트 벤치마크에서는 이전 세대 모델(Gemini 3.1 Pro)을 앞선다.
+기존 고성능 모델이 짐을 가득 싣고 천천히 움직이는 대형 트럭이라면, Flash는 짐을 나눠 빠르게 여러 번 왕복하는 소형 트럭에 가깝다. 구글 공식 발표 기준으로 다른 프런티어 모델 대비 초당 출력 토큰 수가 4배 빠르면서도, 까다로운 코딩·에이전트 벤치마크에서는 자사 상위 모델인 Gemini 3.1 Pro를 앞선다.
 
-경량 모델은 보통 "빠르지만 성능이 낮다"는 통념이 있었는데, 이번 모델은 속도와 성능을 동시에 갖췄다는 점에서 그 통념을 깨는 사례로 소개되고 있다. 같은 계열의 고성능 모델(Pro급)과 비교하면 정밀도보다 처리량과 비용 효율을 우선한 설계다.
+경량 모델은 보통 "빠르지만 성능이 낮다"는 통념이 있었는데, 구글은 이 모델을 "품질과 지연시간(latency)을 맞바꿀 필요가 없는, 탁월한 속도의 프런티어급 지능"으로 포지셔닝하며 그 통념을 정면으로 깼다. 요컨대 "Flash = Pro의 염가판"이라는 기존 라인업 문법을 버리고, Flash를 에이전트 작업의 주력(workhorse) 모델로 승격시킨 것이 이번 출시의 본질이다.
 
-## 비슷한 것과 비교
+## 동작 원리
 
-| 구분 | 목적 | 속도 | 비용 | 대표 지표 |
-|------|------|------|------|----------|
-| Gemini 3.5 Flash | 경량·고속 처리 | 타 최상위 모델 대비 4배 | 상대적으로 저렴 | Terminal-Bench 2.1 76.2% |
-| Gemini 3.1 Pro(이전 세대) | 고정밀 처리 | 상대적으로 느림 | 상대적으로 고가 | Flash 대비 낮은 에이전트 벤치마크 점수 |
+구글이 아키텍처 세부를 공개하지 않아 내부 구조는 알 수 없지만, 공식 문서로 확인되는 "속도와 성능을 같이 잡은" 설계 장치는 두 가지다.
 
-대량의 문서를 빠르게 훑어야 하는 업무는 Flash, 정밀한 판단이 필요한 소수 사례는 Pro급 모델로 나눠 쓰는 것이 합리적인 선택 기준이다.
+첫째, 추론 강도 제어(thinking_level)다. Gemini 3 세대 API는 모델이 답하기 전에 내부적으로 얼마나 깊이 추론할지를 minimal → low → medium → high 4단계 열거값으로 조절한다. 공식 문서는 사실 조회·분류처럼 단순한 작업엔 minimal·low를, 개념 비교엔 medium을, 고난도 코딩·수학·다단계 계획엔 high를 권한다. 주목할 점은 상위 모델 Gemini 3.1 Pro는 minimal을 지원하지 않는다는 것 — 즉 "추론을 거의 끄고 초저지연으로 돌리는" 옵션은 Flash 계열의 고유 무기이고, 같은 모델 하나로 저비용 대량 처리와 깊은 추론을 오가는 운용이 가능하다.
+
+```
+요청 → thinking_level 판단(개발자 지정)
+  minimal : 추출·분류·라우팅 — 최저 지연·최저 토큰
+  low     : 사실 조회
+  medium  : 개념 비교·창의적 추론
+  high    : 고난도 코딩·수학·다단계 계획 — 최고 품질
+→ 내부 추론 → 응답 생성
+```
+
+둘째, 에이전트 우선(agent-first) 설계다. 공식 발표는 이 모델이 장기(long-horizon) 과업을 수행하는 에이전트 워크플로를 겨냥해 만들어졌고, 자사 에이전틱 개발 환경 Antigravity의 하네스에서 다단계 추론·도구 호출을 수행한다고 밝힌다. 벤치마크 구성(터미널 작업·도구 활용·실무 가치)도 채팅 품질이 아니라 에이전트 실행 능력 중심이다.
 
 ## 구체 예시·사례
 
-Gemini 3.5 Flash는 에이전트가 터미널 작업을 수행하는 능력을 재는 Terminal-Bench 2.1에서 76.2%, 도구 활용 능력을 재는 MCP Atlas에서 83.6%, 실무 가치 평가 벤치마크인 GDPval-AA에서 1656 Elo를 기록했다. 구글은 "개발자가 며칠 걸리던 일이나 감사인이 몇 주 걸리던 일을 훨씬 짧은 시간에 끝낼 수 있다"고 소개했다.
+구글 공식 발표 기준(벤더 자체 발표 수치이며 독립 검증은 별도) 성적은 다음과 같다. 에이전트의 터미널 작업 능력을 재는 Terminal-Bench 2.1에서 76.2%, 도구 활용 능력을 재는 MCP Atlas에서 83.6%, 실무 가치 평가 벤치마크 GDPval-AA에서 1656 Elo, 차트 추론(멀티모달) CharXiv Reasoning에서 84.2%. 구글은 "다른 프런티어 모델의 절반 이하 비용으로, 몇 분의 일의 시간에 과업을 완료하는 경우가 많다"고 소개했다.
+
+비용은 공식 API 가격표 기준 입력 100만 토큰당 $1.50, 출력 $9.00다. 상위 모델 Gemini 3.1 Pro Preview(입력 $2.00, 출력 $12.00 — 20만 토큰 이하 구간)보다 저렴하고, 배치(Batch) API를 쓰면 50% 추가 할인된다. 예컨대 공시자료 1만 건을 분류하는 대량 작업이라면, thinking_level을 minimal로 낮추고 배치로 돌려 비용을 다시 줄이는 식의 운용이 공식 스펙 안에서 설계 가능하다.
+
+## 비슷한 것과 비교
+
+| 구분                           | 포지션             | 가격(입력/출력, 1M 토큰) | thinking_level              | 대표 지표                      |
+| ------------------------------ | ------------------ | ------------------------ | --------------------------- | ------------------------------ |
+| Gemini 3.5 Flash               | 에이전트 주력·고속 | $1.50 / $9.00            | minimal 지원(초저지연 가능) | Terminal-Bench 2.1 76.2%       |
+| Gemini 3.1 Pro(이전 세대 상위) | 고정밀 추론        | $2.00 / $12.00 (≤200k)   | low~high만, 기본 high       | 에이전트 벤치에서 Flash에 열세 |
+| Gemini 3.5 Flash-Lite          | 초경량·최저가      | $0.30 / $2.50            | 4단계 전부, 기본 minimal    | 대량 단순 처리용               |
+
+"상위 모델일수록 비싸고 똑똑하다"는 단순 서열이 무너진 것이 포인트다. 에이전트·코딩 실행 작업은 Flash가 Pro보다 싸고 빠르고 점수도 높으므로 Flash, 아주 깊은 단일 추론이 필요한 소수 사례만 Pro급, 추론이 거의 필요 없는 대량 추출·분류는 Flash-Lite — 작업의 "추론 깊이 요구량"으로 고르는 것이 새 선택 기준이다.
 
 ## 왜 지금 중요한가
 
-Gemini 3.5 Flash는 2026년 5월 19일 Google I/O 2026에서 공개되었으며, Gemini 앱과 구글 검색의 AI 모드, 개발자용 Google Antigravity·Gemini API, 기업용 Gemini Enterprise Agent Platform 등 여러 채널로 순차 제공되고 있다. 발표 시점이 이번 브리핑 작성일 기준 약 2개월 전으로, 신선도 기준(3개월 이내)에 부합한다.
+Gemini 3.5 Flash는 2026년 5월 19일 Google I/O 2026에서 공개되었으며, Gemini 앱과 구글 검색의 AI 모드, 개발자용 Google Antigravity·Gemini API, 기업용 Gemini Enterprise Agent Platform, Android Studio 등 여러 채널로 순차 제공되고 있다. 발표 시점이 이번 브리핑 작성일 기준 약 2개월 전으로, 신선도 기준(3개월 이내)에 부합한다. "경량 모델이 에이전트 실행의 주력이 된다"는 이 포지셔닝 전환은 이후 각사 라인업 경쟁의 기준점이 되고 있다.
 
-- [Gemini 3.5: frontier intelligence with action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)
-- [Gemini 3.5 Flash is here: Google's smartest speed model promises better coding and agents](https://www.androidauthority.com/google-gemini-3-5-flash-3668559/)
+- [Gemini 3.5: frontier intelligence with action - Google 공식 블로그](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)
+- [Gemini API 공식 가격표 - Google AI for Developers](https://ai.google.dev/gemini-api/docs/pricing)
+- [Gemini thinking 공식 문서 - Google AI for Developers](https://ai.google.dev/gemini-api/docs/thinking)
 
 ## 회계법인 AI 직무 연결 포인트
 
-계약서나 공시자료처럼 분량이 많은 문서를 신속하게 분류·요약해야 하는 업무에 비용 효율이 높은 경량 모델을 활용할 가능성이 생긴다.
+이 모델이 회계 실무에 주는 고유한 시사점은 thinking_level이라는 "추론 강도 다이얼"이 위험 기반 접근(risk-based approach)과 정확히 같은 문법이라는 데 있다. 감사인이 계정과목별 위험 수준에 따라 절차의 깊이를 달리하듯, 같은 모델을 계약서 단순 분류에는 minimal로, 복잡한 수익 인식 판단 지원에는 high로 돌리는 식의 "업무 위험도 → 추론 강도" 매핑 정책을 만들 수 있다. 어떤 업무에 어느 수준을 허용할지 자체가 AI 이용 통제의 설계 항목이 되는 셈이다.
 
-에이전트형 코딩·도구 활용 벤치마크에서의 강세는 사내 감사 자동화 툴을 자체 개발하는 속도를 높이는 데 도움이 될 수 있다.
+비용 구조도 실무 설계를 바꾼다. 대량 문서 처리(공시·계약서 1차 스크리닝)는 Flash-Lite나 minimal+배치로 단가를 낮추고, 사람 검토 직전의 판단 지원만 high로 올리는 계단식 파이프라인이 공식 가격표 안에서 계산 가능해졌다. "AI 도입 비용을 얼마로 견적할 것인가"가 어림값이 아니라 토큰 단가 기반 원가계산의 영역으로 들어온 것이다.
 
-업무 성격에 따라 여러 모델(예: Claude Sonnet 5, GPT-5.6, Gemini 3.5)을 나눠 쓰는 멀티모델 전략이 회계법인 AI 조직의 표준 운영 방식으로 자리잡아가는 흐름과 맞닿아 있다.
+마지막으로 벤치마크 수치를 읽는 훈련 자체가 직무 역량이다. 위 수치는 모두 벤더 자체 발표이며, GDPval-AA의 Elo처럼 상대평가 점수는 비교 대상 풀이 바뀌면 의미가 달라진다. 벤더 주장 수치를 독립 검증 여부·측정 조건과 함께 읽는 습관은, 경영진 주장을 증거로 검증하는 감사인의 기본기와 같은 구조다.
 
 ## 핵심 용어·논쟁
 
+- thinking_level — 응답 전 내부 추론의 깊이를 minimal~high 4단계로 지정하는 Gemini API 파라미터. 지연시간·토큰 비용과 품질의 트레이드오프 다이얼.
 - MCP Atlas — 에이전트가 도구를 다루는 능력을 측정하는 벤치마크.
 - Terminal-Bench — 에이전트의 터미널 작업 수행 능력을 측정하는 벤치마크.
-- GDPval(GDPval-AA) — 실제 업무 가치 창출 능력을 평가하는 벤치마크.
-- Elo 점수 — 상대적 성능 순위를 매기는 점수 체계(원래 체스 랭킹 방식에서 유래).
+- GDPval(GDPval-AA) — 실제 업무 가치 창출 능력을 평가하는 벤치마크. Elo(체스 랭킹에서 유래한 상대 점수 체계)로 표기.
+- Antigravity — 구글의 에이전틱 개발 환경. Gemini 3.5 Flash가 이 하네스 안에서 다단계 도구 호출을 수행한다.
+
+쟁점은 "경량 모델이 에이전트 주력이 되면, 상위 모델의 존재 이유는 무엇인가"다. 에이전트 실행 벤치마크에서 Flash가 Pro를 앞서는 역전이 공식 수치로 제시되면서, 모델 등급과 작업 적합성을 분리해서 봐야 한다는 쪽으로 논의가 이동하고 있다. 다만 벤더 자체 벤치마크 중심의 서열 주장이라는 한계는 남는다.
 
 ## 자료 깊이 읽기
 
 ### Gemini 3.5: frontier intelligence with action (Google 공식 블로그) — 영어, 공식 발표 자료, 중급
-(요약 불가 — 본문 확인 실패. 접근이 차단되어 검색 결과로 노출된 개요 수준의 정보만 확인했다.)
+출시 공식 발표문으로, 본문을 직접 확인해 요약했다. "품질을 지연시간과 맞바꿀 필요가 없는 탁월한 속도의 프런티어급 지능"이라는 포지셔닝 아래, 장기 과업 수행 에이전트를 위한 설계, Antigravity 하네스에서의 에이전틱 워크플로 실행, 다른 프런티어 모델 대비 4배의 초당 출력 토큰, 절반 이하 비용을 내세운다. 벤치마크로 Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%, GDPval-AA 1656 Elo, CharXiv Reasoning 84.2%를 제시하고 "까다로운 코딩·에이전트 벤치마크에서 Gemini 3.1 Pro를 앞선다"고 명시했다. 제공 채널은 Gemini 앱·검색 AI 모드·Antigravity·API·엔터프라이즈 플랫폼·Android Studio. 아키텍처 세부는 공개하지 않았다.
 
-### Google I/O 2026: Gemini 3.5 Flash, Spark & Agentic AI — 영어, 블로그 요약, 입문
-(요약 불가 — 본문 확인 실패. 검색 결과 제목과 개요만 확인했다.)
+### Gemini API 공식 가격표 (ai.google.dev) — 영어, 공식 개발자 문서, 입문
+구글 공식 API 가격 문서로, 본문을 직접 확인해 요약했다. Gemini 3.5 Flash는 입력 $1.50·출력 $9.00(100만 토큰 기준), Gemini 3.1 Pro Preview는 20만 토큰 이하 구간 입력 $2.00·출력 $12.00(초과 구간 $4.00/$18.00), Gemini 3.5 Flash-Lite는 $0.30/$2.50다. 배치 API는 표준 대비 50% 할인을 제공한다. Flash가 Pro보다 싸면서 에이전트 벤치에서 앞선다는 역전 구도, 그리고 Lite~Pro 사이 약 13배(출력 기준 $2.50~$18.00)에 이르는 가격 스펙트럼을 공식 수치로 확인할 수 있어, 업무별 모델 배치의 원가계산 근거 자료로 쓰기 좋다.
+
+### Gemini thinking 공식 문서 (ai.google.dev) — 영어, 공식 개발자 문서, 중급
+thinking_level 파라미터의 공식 문서로, 본문을 직접 확인해 요약했다. 추론 강도는 minimal·low·medium·high 4단계이며, 모델별 지원 범위가 다르다 — Flash 계열은 4단계 전부를 지원하는 반면 Gemini 3.1 Pro Preview는 minimal 없이 low~high만 지원하고 기본값이 high다. 용도 가이드로 minimal·low는 사실 조회·분류, medium은 개념 비교, high는 고난도 코딩·수학·다단계 계획을 권한다. 토큰 예산 숫자를 직접 지정하던 이전 방식(thinking_budget)을 대체한 단순화된 제어라는 점, 그리고 "추론을 끄는 옵션"이 Flash 계열의 차별 요소라는 점이 확인 포인트다.
 
 **그 외 참고**
-- [Gemini 3.5 Flash for Coding and Agents: Setup, Benchmarks, and Honest Best Practices (2026)](https://ofox.ai/blog/gemini-3-5-flash-coding-agents-guide-2026/) — 영어, 블로그, 중급
+- [Gemini 3.5 Flash - API Pricing & Benchmarks | OpenRouter](https://openrouter.ai/google/gemini-3.5-flash) — 영어, 모델 허브, 입문
 - [【Google I/O 2026まとめ】Gemini 3.5 Flash・Gemini Omni Flash・Antigravity 2.0まで新AIを全部解説](https://www.youtube.com/watch?v=OmfWgg5MRok) — 일본어, 유튜브 영상, 입문
-- [Gemini 3.5 Flash: New Pricing, 4x Speed & Thinking Level Changes](https://webscraft.org/blog/gemini-35-flash-pislya-google-io-2026-nova-model-novi-tsini-i-chomu-defolt-thinking-zminivsya?lang=en) — 영어, 블로그, 입문
 
 ## 자가 점검 질문
 
-1. 경량 모델과 고성능 모델을 회계·감사 업무에서 어떤 기준으로 나눠 써야 하는가?
-2. MCP Atlas나 Terminal-Bench 같은 벤치마크 점수가 실제 감사 자동화 업무 품질과 어느 정도 상관관계가 있다고 볼 수 있는가?
-3. 여러 모델을 병행 사용하는 멀티모델 전략을 도입할 때, 회계법인 입장에서 데이터 보안·거버넌스 측면에서 무엇을 먼저 점검해야 하는가?
+1. "Flash = 상위 모델의 염가판"이라는 기존 문법이 이번 출시에서 어떻게 깨졌는가? 그 근거로 제시된 수치는 누가 발표한 것이며 어떤 한계가 있는가?
+2. thinking_level 4단계를 회계법인의 업무 위험도 구분에 매핑한다면, 어떤 업무를 minimal에 두고 어떤 업무를 high에 둘 것인가? 그 매핑 자체를 통제로 문서화한다면 무엇을 남겨야 하는가?
+3. 벤더 자체 벤치마크(Terminal-Bench, GDPval-AA 등) 점수가 실제 감사 자동화 업무 품질과 어느 정도 상관관계가 있다고 볼 수 있는가? 독립 검증이 없는 수치를 도입 의사결정에 쓸 때의 안전장치는 무엇인가?
