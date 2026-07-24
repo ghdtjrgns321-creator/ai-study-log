@@ -86,3 +86,7 @@
 | 2026-07-24 | ai-concept  | 컨텍스트 로트와 컨텍스트 압축(Context Rot & Compaction)                                   |
 | 2026-07-24 | audit       | 에이전트 컨트롤 플레인과 KPMG의 Agent 365 전사 배포                                       |
 | 2026-07-24 | trend       | 알리바바 Qwen3.8-Max-Preview 공개                                                         |
+| 2026-07-25 | agentic-coding | JetBrains 주니(Junie) 정식 출시(GA) 전환                                               |
+| 2026-07-25 | ai-concept  | 멀티모달 RAG 벤치마크 ViDoRe V3                                                           |
+| 2026-07-25 | audit       | 삼일PwC 내부통제 자동화 AI 솔루션(Control Testing Automation) 해외 수출                   |
+| 2026-07-25 | trend       | 클로드 오퍼스 5(Claude Opus 5) 출시                                                       |
