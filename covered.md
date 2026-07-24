@@ -78,3 +78,7 @@
 | 2026-07-22 | claude-code | MCP 도구 호출 자동 백그라운드 전환(Automatic MCP Tool Backgrounding) |
 | 2026-07-22 | ai-concept | 확산 언어모델(Diffusion Language Model, DLM)        |
 | 2026-07-22 | trend      | Gemini 3.6 Flash 출시                               |
+| 2026-07-24 | claude-code | 아티팩트 MCP 커넥터 연동(Artifacts MCP Connectors)      |
+| 2026-07-24 | ai-concept | 컨텍스트 로트와 컨텍스트 압축(Context Rot & Compaction)   |
+| 2026-07-24 | audit      | 에이전트 컨트롤 플레인과 KPMG의 Agent 365 전사 배포        |
+| 2026-07-24 | trend      | 알리바바 Qwen3.8-Max-Preview 공개                     |
