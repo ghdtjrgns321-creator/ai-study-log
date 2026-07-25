@@ -90,3 +90,7 @@
 | 2026-07-25 | ai-concept  | 멀티모달 RAG 벤치마크 ViDoRe V3                                                           |
 | 2026-07-25 | audit       | 삼일PwC 내부통제 자동화 AI 솔루션(Control Testing Automation) 해외 수출                   |
 | 2026-07-25 | trend       | 클로드 오퍼스 5(Claude Opus 5) 출시                                                       |
+| 2026-07-26 | agentic-coding | GitHub Copilot의 오픈웨이트 모델 정식 도입(Kimi K2.7 Code GA)                          |
+| 2026-07-26 | ai-concept  | 세계모델(World Model)                                                                    |
+| 2026-07-26 | audit       | 삼정KPMG 2026 재무 분야 AI 활용 글로벌 설문조사와 AI 어슈어런스 준비도                   |
+| 2026-07-26 | trend       | FLUX 3(Black Forest Labs) 멀티모달 프론티어 모델 공개                                    |
