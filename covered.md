@@ -94,3 +94,7 @@
 | 2026-07-26 | ai-concept  | 세계모델(World Model)                                                                    |
 | 2026-07-26 | audit       | 삼정KPMG 2026 재무 분야 AI 활용 글로벌 설문조사와 AI 어슈어런스 준비도                   |
 | 2026-07-26 | trend       | FLUX 3(Black Forest Labs) 멀티모달 프론티어 모델 공개                                    |
+| 2026-07-27 | ai-concept  | C2PA / 콘텐츠 자격 증명(Content Credentials)                                              |
+| 2026-07-27 | agentic-coding | OpenAI 코덱스 GPT-5.6 솔 전환과 멀티에이전트 V2 안정화                                 |
+| 2026-07-27 | audit       | 빅4 회계법인의 과금 모델 전환(빌러블 아워 → 아웃컴 기반·서비스형 AI)                      |
+| 2026-07-27 | trend       | Windsurf에서 Devin Desktop으로의 리브랜딩과 에이전틱 코딩 업계 재편                       |
