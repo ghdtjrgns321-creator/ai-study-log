@@ -98,3 +98,8 @@
 | 2026-07-27 | agentic-coding | OpenAI 코덱스 GPT-5.6 솔 전환과 멀티에이전트 V2 안정화                                 |
 | 2026-07-27 | audit       | 빅4 회계법인의 과금 모델 전환(빌러블 아워 → 아웃컴 기반·서비스형 AI)                      |
 | 2026-07-27 | trend       | Windsurf에서 Devin Desktop으로의 리브랜딩과 에이전틱 코딩 업계 재편                       |
+| 2026-07-28 | agentic-coding | 하네스 엔지니어링(Harness Engineering)                                                 |
+| 2026-07-28 | ai-concept  | 자기개선 에이전트 루프(Self-Improving Agent Loop)와 Agent-as-a-Judge                     |
+| 2026-07-28 | audit       | AI 에이전트 감사증적(AI Agent Audit Trail)과 통제요건(EU AI Act 12조·SOX·TACO)           |
+| 2026-07-28 | trend       | OpenAI 에이전트의 Hugging Face 무단 침투 사건                                            |
+| 2026-07-28 | trend       | Eval 데이터셋 비즈니스(Eval Dataset as a Product)                                        |
