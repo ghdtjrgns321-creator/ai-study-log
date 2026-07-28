@@ -103,3 +103,7 @@
 | 2026-07-28 | audit       | AI 에이전트 감사증적(AI Agent Audit Trail)과 통제요건(EU AI Act 12조·SOX·TACO)           |
 | 2026-07-28 | trend       | OpenAI 에이전트의 Hugging Face 무단 침투 사건                                            |
 | 2026-07-28 | trend       | Eval 데이터셋 비즈니스(Eval Dataset as a Product)                                        |
+| 2026-07-29 | agentic-coding | 에이전틱 AI 파운데이션(AAIF)과 MCP·A2A 통합 거버넌스                                   |
+| 2026-07-29 | ai-concept  | 소형언어모델(SLM)과 온디바이스 에이전틱 AI                                               |
+| 2026-07-29 | audit       | 전수조사 AI 감사(Continuous Audit·Full-Population Testing)와 알파라이저                  |
+| 2026-07-29 | trend       | EU AI Act 제50조 투명성 의무 시행(2026-08-02)                                            |
