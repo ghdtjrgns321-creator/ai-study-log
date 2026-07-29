@@ -107,3 +107,8 @@
 | 2026-07-29 | ai-concept  | 소형언어모델(SLM)과 온디바이스 에이전틱 AI                                               |
 | 2026-07-29 | audit       | 전수조사 AI 감사(Continuous Audit·Full-Population Testing)와 알파라이저                  |
 | 2026-07-29 | trend       | EU AI Act 제50조 투명성 의무 시행(2026-08-02)                                            |
+| 2026-07-30 | agentic-coding | AWS Kiro의 스펙 기반 개발(Spec-Driven Development)과 Amazon Q Developer 대체            |
+| 2026-07-30 | ai-concept  | 검증 가능한 보상 기반 강화학습(RLVR)과 검증자 엔지니어링                                  |
+| 2026-07-30 | audit       | 그랜트손튼의 통합 AI 감사 플랫폼 gtap 출시                                                |
+| 2026-07-30 | audit       | 금융위원회 금융분야 AI 가이드라인 개정·시행                                              |
+| 2026-07-30 | trend       | "Pacing the Frontier" 성명과 재귀적 자기개선 감속 논의                                    |
