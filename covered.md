@@ -112,3 +112,7 @@
 | 2026-07-30 | audit       | 그랜트손튼의 통합 AI 감사 플랫폼 gtap 출시                                                |
 | 2026-07-30 | audit       | 금융위원회 금융분야 AI 가이드라인 개정·시행                                              |
 | 2026-07-30 | trend       | "Pacing the Frontier" 성명과 재귀적 자기개선 감속 논의                                    |
+| 2026-07-31 | agentic-coding | Git Worktree 기반 병렬 에이전트 실행(Parallel Agent Isolation)                         |
+| 2026-07-31 | ai-concept  | 매니지드 에이전트(Managed Agents-as-a-Service)와 Gemini API Interactions API             |
+| 2026-07-31 | audit       | 국세청 K-AI 세정 60대 혁신과제와 AI 탈세 적발 시스템                                      |
+| 2026-07-31 | trend       | 메이투안 LongCat-2.0 오픈소스 공개(1.6T MoE, 중국산 ASIC 학습)                            |
