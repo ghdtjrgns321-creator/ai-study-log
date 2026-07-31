@@ -116,3 +116,7 @@
 | 2026-07-31 | ai-concept  | 매니지드 에이전트(Managed Agents-as-a-Service)와 Gemini API Interactions API             |
 | 2026-07-31 | audit       | 국세청 K-AI 세정 60대 혁신과제와 AI 탈세 적발 시스템                                      |
 | 2026-07-31 | trend       | 메이투안 LongCat-2.0 오픈소스 공개(1.6T MoE, 중국산 ASIC 학습)                            |
+| 2026-08-01 | agentic-coding | 커서 컴포저 2.5(Cursor Composer 2.5)와 IDE 회사의 자체 코딩 모델 수직계열화             |
+| 2026-08-01 | ai-concept  | 합성 데이터(Synthetic Data)와 모델 붕괴 리스크                                            |
+| 2026-08-01 | audit       | 빅4 회계·컨설팅 보고서 AI 환각 확산 사태(PwC 중동법인 사례)                               |
+| 2026-08-01 | trend       | DeepSeek-V4-Flash-0731 정식 출시(프리뷰→GA, 추측 디코딩)                                  |
