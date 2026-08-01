@@ -120,3 +120,7 @@
 | 2026-08-01 | ai-concept  | 합성 데이터(Synthetic Data)와 모델 붕괴 리스크                                            |
 | 2026-08-01 | audit       | 빅4 회계·컨설팅 보고서 AI 환각 확산 사태(PwC 중동법인 사례)                               |
 | 2026-08-01 | trend       | DeepSeek-V4-Flash-0731 정식 출시(프리뷰→GA, 추측 디코딩)                                  |
+| 2026-08-02 | agentic-coding | 앤트로픽 2026 에이전틱 코딩 트렌드 리포트와 위임 격차(Delegation Gap)                  |
+| 2026-08-02 | ai-concept  | 테스트타임 스펙큘레이션(Test-Time Speculation)과 온라인 증류 기반 디코딩 가속              |
+| 2026-08-02 | audit       | 필드가이드(Fieldguide) 에이전틱 감사 플랫폼과 BDO·RSM의 대규모 AI 투자                     |
+| 2026-08-02 | trend       | SK텔레콤 A.X K2 파운데이션 모델 공개(688B, SGA 구조)                                      |
