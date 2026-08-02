@@ -124,3 +124,7 @@
 | 2026-08-02 | ai-concept  | 테스트타임 스펙큘레이션(Test-Time Speculation)과 온라인 증류 기반 디코딩 가속              |
 | 2026-08-02 | audit       | 필드가이드(Fieldguide) 에이전틱 감사 플랫폼과 BDO·RSM의 대규모 AI 투자                     |
 | 2026-08-02 | trend       | SK텔레콤 A.X K2 파운데이션 모델 공개(688B, SGA 구조)                                      |
+| 2026-08-03 | agentic-coding | 오픈코드(OpenCode) 오픈소스 코딩 에이전트의 GitHub 최다 스타 등극                       |
+| 2026-08-03 | ai-concept  | 구조화된 출력과 제약 디코딩(Structured Output & Constrained Decoding)                     |
+| 2026-08-03 | audit       | IFRS 18 전환과 AI 기반 전표 재분류 자동화                                                |
+| 2026-08-03 | trend       | 알리바바 Qwen의 폐쇄형 전환(Closed-Weight Pivot)과 오픈소스 생태계 균열                    |
