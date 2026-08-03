@@ -128,3 +128,7 @@
 | 2026-08-03 | ai-concept  | 구조화된 출력과 제약 디코딩(Structured Output & Constrained Decoding)                     |
 | 2026-08-03 | audit       | IFRS 18 전환과 AI 기반 전표 재분류 자동화                                                |
 | 2026-08-03 | trend       | 알리바바 Qwen의 폐쇄형 전환(Closed-Weight Pivot)과 오픈소스 생태계 균열                    |
+| 2026-08-04 | agentic-coding | 구글 안티그래비티 2.0(Google Antigravity 2.0)과 오케스트레이터-서브에이전트 구조         |
+| 2026-08-04 | ai-concept  | 매트료시카 임베딩(Matryoshka Representation Learning)과 벡터 검색 비용 최적화             |
+| 2026-08-04 | audit       | EY 엔터프라이즈급 에이전틱 AI 감사 도입(EY 캔버스 멀티 에이전트)                          |
+| 2026-08-04 | trend       | 클로드 페이블 5·미토스 5(Claude Fable 5·Mythos 5) 출시                                    |
