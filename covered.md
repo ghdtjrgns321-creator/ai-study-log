@@ -132,3 +132,7 @@
 | 2026-08-04 | ai-concept  | 매트료시카 임베딩(Matryoshka Representation Learning)과 벡터 검색 비용 최적화             |
 | 2026-08-04 | audit       | EY 엔터프라이즈급 에이전틱 AI 감사 도입(EY 캔버스 멀티 에이전트)                          |
 | 2026-08-04 | trend       | 클로드 페이블 5·미토스 5(Claude Fable 5·Mythos 5) 출시                                    |
+| 2026-08-05 | agentic-coding | MCP·에이전트 스킬 공급망 보안(ToxicSkills·ClawHavoc 사건)                             |
+| 2026-08-05 | ai-concept  | LLM 양자화(Quantization)와 KV 캐시 양자화 — 온디바이스·경량화 배포                        |
+| 2026-08-05 | audit       | 감사위원회의 AI 거버넌스 감독 책무(Audit Committee AI Oversight)                          |
+| 2026-08-05 | trend       | 국가 AI 컴퓨팅센터 착공(해남 솔라시도, 2028년까지 GPU 1만5000장)                          |
