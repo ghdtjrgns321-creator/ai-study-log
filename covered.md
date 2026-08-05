@@ -136,3 +136,7 @@
 | 2026-08-05 | ai-concept  | LLM 양자화(Quantization)와 KV 캐시 양자화 — 온디바이스·경량화 배포                        |
 | 2026-08-05 | audit       | 감사위원회의 AI 거버넌스 감독 책무(Audit Committee AI Oversight)                          |
 | 2026-08-05 | trend       | 국가 AI 컴퓨팅센터 착공(해남 솔라시도, 2028년까지 GPU 1만5000장)                          |
+| 2026-08-06 | agentic-coding | 클로드 시큐리티 플러그인(Claude Security Plugin) — 멀티에이전트 취약점 스캐너            |
+| 2026-08-06 | ai-concept  | 에이전틱 신원·접근관리(Agentic Identity and Access Management, Agentic IAM)               |
+| 2026-08-06 | audit       | PCAOB QC 1000 품질관리기준 시행과 AI 기반 모니터링·시정(Monitoring & Remediation)         |
+| 2026-08-06 | trend       | 제미나이 로보틱스 2(Gemini Robotics 2) — 전신 제어 휴머노이드 AI 모델                      |
