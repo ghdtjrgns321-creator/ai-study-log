@@ -140,3 +140,7 @@
 | 2026-08-06 | ai-concept  | 에이전틱 신원·접근관리(Agentic Identity and Access Management, Agentic IAM)               |
 | 2026-08-06 | audit       | PCAOB QC 1000 품질관리기준 시행과 AI 기반 모니터링·시정(Monitoring & Remediation)         |
 | 2026-08-06 | trend       | 제미나이 로보틱스 2(Gemini Robotics 2) — 전신 제어 휴머노이드 AI 모델                      |
+| 2026-08-07 | agentic-coding | 메타 뮤즈 코드(Meta Muse Code) — 메타 첫 AI 코딩 에이전트 베타 출시                     |
+| 2026-08-07 | ai-concept  | 하이브리드 검색(Hybrid Search: Vector + BM25)                                            |
+| 2026-08-07 | audit       | 삼일PwC AX노드 AI 솔루션 포트폴리오(어카운팅 인사이트·택스 에이전트·K-SOX 허브)          |
+| 2026-08-07 | trend       | 아마존의 오픈AI 500억 달러 투자 완료(지분 약 5% 확보)                                    |
