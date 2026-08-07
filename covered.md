@@ -144,3 +144,7 @@
 | 2026-08-07 | ai-concept  | 하이브리드 검색(Hybrid Search: Vector + BM25)                                            |
 | 2026-08-07 | audit       | 삼일PwC AX노드 AI 솔루션 포트폴리오(어카운팅 인사이트·택스 에이전트·K-SOX 허브)          |
 | 2026-08-07 | trend       | 아마존의 오픈AI 500억 달러 투자 완료(지분 약 5% 확보)                                    |
+| 2026-08-08 | agentic-coding | 터미널벤치 2.1(Terminal-Bench 2.1) — CLI 에이전트 평가 벤치마크와 모델·하네스 분리 측정 |
+| 2026-08-08 | ai-concept  | 전문가 혼합(Mixture of Experts, MoE) 아키텍처와 라우팅 구조                                |
+| 2026-08-08 | audit       | 금감원 가상자산 불공정거래 AI 실시간 감시체계(ORBIT·VISTA)와 혐의군 자동적출               |
+| 2026-08-08 | trend       | OpenAI 아스트라(Astra)의 미해결 수학 문제 10개 증명 공개(Lean 4 검증)                      |
