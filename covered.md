@@ -148,3 +148,7 @@
 | 2026-08-08 | ai-concept  | 전문가 혼합(Mixture of Experts, MoE) 아키텍처와 라우팅 구조                                |
 | 2026-08-08 | audit       | 금감원 가상자산 불공정거래 AI 실시간 감시체계(ORBIT·VISTA)와 혐의군 자동적출               |
 | 2026-08-08 | trend       | OpenAI 아스트라(Astra)의 미해결 수학 문제 10개 증명 공개(Lean 4 검증)                      |
+| 2026-08-09 | agentic-coding | 제드 병렬 에이전트(Zed Parallel Agents)와 에이전트 클라이언트 프로토콜(ACP)             |
+| 2026-08-09 | ai-concept  | 장기 과업 에이전트 계획(Long-Horizon Agentic Planning)의 한계와 검증자 세금(Verifier Tax)  |
+| 2026-08-09 | audit       | AICPA의 AI 활용 책임 가이드와 외부조회 기준(SAS No. 150) 개정                             |
+| 2026-08-09 | trend       | 프런티어 AI 사이버보안 행정명령과 30일 조기접근 프레임워크                                |
