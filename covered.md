@@ -152,3 +152,7 @@
 | 2026-08-09 | ai-concept  | 장기 과업 에이전트 계획(Long-Horizon Agentic Planning)의 한계와 검증자 세금(Verifier Tax)  |
 | 2026-08-09 | audit       | AICPA의 AI 활용 책임 가이드와 외부조회 기준(SAS No. 150) 개정                             |
 | 2026-08-09 | trend       | 프런티어 AI 사이버보안 행정명령과 30일 조기접근 프레임워크                                |
+| 2026-08-10 | agentic-coding | 에이전트 플러그인(Agent Plugins) 오픈 표준 — OpenAI·AWS·Cursor·GitHub·Microsoft·Vercel 공동 발표 |
+| 2026-08-10 | ai-concept  | 기계론적 해석가능성(Mechanistic Interpretability)과 서킷 추적(Circuit Tracing)             |
+| 2026-08-10 | audit       | 한국공인회계사회 2026년 AI 기반 고위험군 선별 심사·감리 운영계획                          |
+| 2026-08-10 | trend       | xAI 그록 보이스 씽크 패스트 2.0(Grok Voice Think Fast 2.0) 음성 대화 모델 출시             |
