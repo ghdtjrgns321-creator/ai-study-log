@@ -156,3 +156,7 @@
 | 2026-08-10 | ai-concept  | 기계론적 해석가능성(Mechanistic Interpretability)과 서킷 추적(Circuit Tracing)             |
 | 2026-08-10 | audit       | 한국공인회계사회 2026년 AI 기반 고위험군 선별 심사·감리 운영계획                          |
 | 2026-08-10 | trend       | xAI 그록 보이스 씽크 패스트 2.0(Grok Voice Think Fast 2.0) 음성 대화 모델 출시             |
+| 2026-08-11 | agentic-coding | 깃허브 코파일럿 앱(GitHub Copilot App)의 에이전트 네이티브 데스크톱 경험(Canvas·Agent Merge) |
+| 2026-08-11 | ai-concept  | RAG 평가 트라이어드(RAG Triad) — Groundedness·Context Relevance·Answer Relevance          |
+| 2026-08-11 | audit       | ISACA IT감사프레임워크(ITAF) 5판과 AAIA(Advanced in AI Audit) 자격증                      |
+| 2026-08-11 | trend       | 메타 뮤즈 글리머(Meta Muse Glimmer) — 소비자 GPU용 오픈웨이트 에이전틱 모델 출시            |
