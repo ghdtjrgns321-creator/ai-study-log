@@ -160,3 +160,7 @@
 | 2026-08-11 | ai-concept  | RAG 평가 트라이어드(RAG Triad) — Groundedness·Context Relevance·Answer Relevance          |
 | 2026-08-11 | audit       | ISACA IT감사프레임워크(ITAF) 5판과 AAIA(Advanced in AI Audit) 자격증                      |
 | 2026-08-11 | trend       | 메타 뮤즈 글리머(Meta Muse Glimmer) — 소비자 GPU용 오픈웨이트 에이전틱 모델 출시            |
+| 2026-08-12 | agentic-coding | AI 생성 코드 기술부채(AI-Generated Code Technical Debt) — GitClear·arXiv 실증 연구        |
+| 2026-08-12 | ai-concept  | 평가 주도 개발(Evaluation-Driven Development, EDD)                                        |
+| 2026-08-12 | audit       | AI 딥페이크와 감사증거 신뢰성 위기(Audit Evidence Crisis) — ISA 500 관점                   |
+| 2026-08-12 | trend       | 앤트로픽 테세우스 데이터센터 합작투자(Anthropic Theseus Infrastructure JV) — Macquarie·GIC |
