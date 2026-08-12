@@ -164,3 +164,7 @@
 | 2026-08-12 | ai-concept  | 평가 주도 개발(Evaluation-Driven Development, EDD)                                        |
 | 2026-08-12 | audit       | AI 딥페이크와 감사증거 신뢰성 위기(Audit Evidence Crisis) — ISA 500 관점                   |
 | 2026-08-12 | trend       | 앤트로픽 테세우스 데이터센터 합작투자(Anthropic Theseus Infrastructure JV) — Macquarie·GIC |
+| 2026-08-13 | agentic-coding | 리플릿 에이전트 4의 병렬 태스크 포킹(Replit Agent 4 Parallel Task Forking) — 클라우드 IDE의 자동 서브에이전트 오케스트레이션 |
+| 2026-08-13 | ai-concept  | 에이전틱 브라우저(Agentic Browser) — DOM·접근성 트리 기반 웹 전용 에이전트                |
+| 2026-08-13 | audit       | 빅4 채용 구조 역전(Big Four AI Hiring Shift)과 한국 수습 회계사 취업난                    |
+| 2026-08-13 | trend       | OpenAI GPT-5.6-Cyber 출시 — 데이브레이크 블루·레드 2단계 오펜스-그레이드 사이버보안 모델   |
