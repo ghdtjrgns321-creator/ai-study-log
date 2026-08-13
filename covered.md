@@ -168,3 +168,7 @@
 | 2026-08-13 | ai-concept  | 에이전틱 브라우저(Agentic Browser) — DOM·접근성 트리 기반 웹 전용 에이전트                |
 | 2026-08-13 | audit       | 빅4 채용 구조 역전(Big Four AI Hiring Shift)과 한국 수습 회계사 취업난                    |
 | 2026-08-13 | trend       | OpenAI GPT-5.6-Cyber 출시 — 데이브레이크 블루·레드 2단계 오펜스-그레이드 사이버보안 모델   |
+| 2026-08-14 | agentic-coding | AI 사이버 트레이닝 스위트(Innodata AI Cyber Training Suite) — 공격 재현 기반 취약점 패치 학습 데이터셋 |
+| 2026-08-14 | ai-concept  | 의미론적 엔트로피(Semantic Entropy) — 반복 샘플링 기반 LLM 환각 탐지                        |
+| 2026-08-14 | audit       | 국제지속가능성인증기준(ISSA 5000) 시행 임박과 AI 기반 ESG 공시 검증                        |
+| 2026-08-14 | trend       | 구글 제미나이 3.7 플래시(Gemini 3.7 Flash) 출시 — 코딩·에이전트 특화 경량 모델              |
