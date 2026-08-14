@@ -172,3 +172,7 @@
 | 2026-08-14 | ai-concept  | 의미론적 엔트로피(Semantic Entropy) — 반복 샘플링 기반 LLM 환각 탐지                        |
 | 2026-08-14 | audit       | 국제지속가능성인증기준(ISSA 5000) 시행 임박과 AI 기반 ESG 공시 검증                        |
 | 2026-08-14 | trend       | 구글 제미나이 3.7 플래시(Gemini 3.7 Flash) 출시 — 코딩·에이전트 특화 경량 모델              |
+| 2026-08-15 | ai-concept  | 파라미터 효율적 미세조정(PEFT) — LoRA·QLoRA                                              |
+| 2026-08-15 | audit       | 삼정KPMG 'KPMG AI SOX' 솔루션 — 내부회계관리제도 AI 전환(RCM 기반, HITL)                  |
+| 2026-08-15 | trend       | 딥시크 V4 프로 0813(DeepSeek-V4-Pro-0813) 정식 출시 — 프리뷰 종료, 에이전트 성능 강화        |
+| 2026-08-15 | agentic-coding | 키미 코드 CLI(Kimi Code CLI, Moonshot AI) — MIT 라이선스 오픈소스 터미널 코딩 에이전트   |
