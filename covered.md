@@ -176,3 +176,7 @@
 | 2026-08-15 | audit       | 삼정KPMG 'KPMG AI SOX' 솔루션 — 내부회계관리제도 AI 전환(RCM 기반, HITL)                  |
 | 2026-08-15 | trend       | 딥시크 V4 프로 0813(DeepSeek-V4-Pro-0813) 정식 출시 — 프리뷰 종료, 에이전트 성능 강화        |
 | 2026-08-15 | agentic-coding | 키미 코드 CLI(Kimi Code CLI, Moonshot AI) — MIT 라이선스 오픈소스 터미널 코딩 에이전트   |
+| 2026-08-16 | trend       | LLM 추론 흔적 탈취 취약점(Reasoning Trace Extraction) — OpenAI·Anthropic·Google 암호화 블록 이식성 결함 |
+| 2026-08-16 | agentic-coding | 나이브(Naïve) — 코딩 에이전트 산출물을 '자율기업'으로 전환하는 인프라(시리즈A 2,850만 달러) |
+| 2026-08-16 | ai-concept  | 체인오브소트 신뢰성·모니터링가능성(Chain-of-Thought Faithfulness & Monitorability)         |
+| 2026-08-16 | audit       | Fieldguide·TrendCandy AI 네이티브 감사법인 수익성 격차 조사(22%p 갭)                      |
