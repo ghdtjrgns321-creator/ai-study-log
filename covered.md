@@ -180,3 +180,7 @@
 | 2026-08-16 | agentic-coding | 나이브(Naïve) — 코딩 에이전트 산출물을 '자율기업'으로 전환하는 인프라(시리즈A 2,850만 달러) |
 | 2026-08-16 | ai-concept  | 체인오브소트 신뢰성·모니터링가능성(Chain-of-Thought Faithfulness & Monitorability)         |
 | 2026-08-16 | audit       | Fieldguide·TrendCandy AI 네이티브 감사법인 수익성 격차 조사(22%p 갭)                      |
+| 2026-08-17 | agentic-coding | 클로드 코드 셀프호스티드 실행환경(Claude Code Self-Hosted Environments) — 조직 인프라에서 세션 실행 |
+| 2026-08-17 | ai-concept  | 프로그래매틱 툴콜링(Programmatic Tool Calling, PTC) — 코드 실행 컨테이너 기반 도구 호출 최적화     |
+| 2026-08-17 | audit       | IAASB의 ISA 330·500·520 개정 노출초안(Strengthening the Risk-Based Audit Framework)      |
+| 2026-08-17 | trend       | GLM-5.3(Z.ai)의 돌출한 사이버 능력 — 오픈웨이트 코딩 SOTA와 Cursor 취약점 발견              |
