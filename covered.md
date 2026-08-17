@@ -184,3 +184,7 @@
 | 2026-08-17 | ai-concept  | 프로그래매틱 툴콜링(Programmatic Tool Calling, PTC) — 코드 실행 컨테이너 기반 도구 호출 최적화     |
 | 2026-08-17 | audit       | IAASB의 ISA 330·500·520 개정 노출초안(Strengthening the Risk-Based Audit Framework)      |
 | 2026-08-17 | trend       | GLM-5.3(Z.ai)의 돌출한 사이버 능력 — 오픈웨이트 코딩 SOTA와 Cursor 취약점 발견              |
+| 2026-08-18 | agentic-coding | 마이크로소프트 인텔리전트 터미널 0.2(Intelligent Terminal 0.2) — 탭별 멀티 에이전트 배차와 로컬 모델(BYOM) 지원 |
+| 2026-08-18 | ai-concept  | 권한 분리 아키텍처(Privilege Separation)와 계획-실행 분리(Plan-Then-Execute) — 프롬프트 인젝션 방어 |
+| 2026-08-18 | audit       | 수랄링크(Suralink) 에이전트 라이브러리 확장 — PBC 사전검수·증빙대사 AI 에이전트                |
+| 2026-08-18 | trend       | 스트라이프의 오픈라우터(OpenRouter) 70억 달러대 인수 보도 — AI 게이트웨이의 결제 인프라 편입      |
