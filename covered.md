@@ -188,3 +188,7 @@
 | 2026-08-18 | ai-concept  | 권한 분리 아키텍처(Privilege Separation)와 계획-실행 분리(Plan-Then-Execute) — 프롬프트 인젝션 방어 |
 | 2026-08-18 | audit       | 수랄링크(Suralink) 에이전트 라이브러리 확장 — PBC 사전검수·증빙대사 AI 에이전트                |
 | 2026-08-18 | trend       | 스트라이프의 오픈라우터(OpenRouter) 70억 달러대 인수 보도 — AI 게이트웨이의 결제 인프라 편입      |
+| 2026-08-19 | ai-concept  | 컨텍스트 로트(Context Rot) — 입력 길이 증가에 따른 LLM 성능 비균일 저하와 RLM(재귀적 언어모델) 대응    |
+| 2026-08-19 | agentic-coding | 커서 클라우드 에이전트(Cursor Cloud Agents) — 격리 VM 자체 테스트·데모영상·원격제어 실행환경    |
+| 2026-08-19 | audit       | SEC 2026 검사 우선순위의 AI 감독 강화 — AI 워싱 점검과 벤더 실사 프레임워크 확대                    |
+| 2026-08-19 | trend       | 씽킹머신즈랩(Thinking Machines Lab) 오픈웨이트 모델 잉클링(Inkling) 출시 — 미라 무라티의 첫 자체 모델 |
