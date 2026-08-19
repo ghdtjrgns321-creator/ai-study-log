@@ -192,3 +192,7 @@
 | 2026-08-19 | agentic-coding | 커서 클라우드 에이전트(Cursor Cloud Agents) — 격리 VM 자체 테스트·데모영상·원격제어 실행환경    |
 | 2026-08-19 | audit       | SEC 2026 검사 우선순위의 AI 감독 강화 — AI 워싱 점검과 벤더 실사 프레임워크 확대                    |
 | 2026-08-19 | trend       | 씽킹머신즈랩(Thinking Machines Lab) 오픈웨이트 모델 잉클링(Inkling) 출시 — 미라 무라티의 첫 자체 모델 |
+| 2026-08-20 | agentic-coding | 딥시크 하네스(DeepSeek Harness) — everything-is-a-plugin 오픈소스 에이전트 하네스(Cordis 메타프레임워크) |
+| 2026-08-20 | ai-concept  | 다중 에이전트 토론(Multi-Agent Debate)을 통한 LLM 신뢰성 향상                             |
+| 2026-08-20 | audit       | FEI AI 내부통제 프레임워크(AI Framework: Internal Control Over Financial Reporting)       |
+| 2026-08-20 | trend       | 대만 정부·에너지 기관 대상 자율형 AI 사이버공격(Taiwan Autonomous AI Cyberattack)          |
