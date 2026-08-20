@@ -196,3 +196,7 @@
 | 2026-08-20 | ai-concept  | 다중 에이전트 토론(Multi-Agent Debate)을 통한 LLM 신뢰성 향상                             |
 | 2026-08-20 | audit       | FEI AI 내부통제 프레임워크(AI Framework: Internal Control Over Financial Reporting)       |
 | 2026-08-20 | trend       | 대만 정부·에너지 기관 대상 자율형 AI 사이버공격(Taiwan Autonomous AI Cyberattack)          |
+| 2026-08-21 | agentic-coding | 워프 팩토리즈(Warp Factories) — 코드형 정의로 고정하는 5단계 AI 소프트웨어 팩토리 파이프라인 |
+| 2026-08-21 | ai-concept  | 하이브리드 상태공간모델(Hybrid State Space Model, SSM·Mamba) — 어텐션과 맘바를 결합한 긴 문맥 저비용 아키텍처 |
+| 2026-08-21 | audit       | PCAOB 표준제정 우선순위 공개의견수렴(Standard-Setting Prioritization) — AI·기술이 핵심 테마로 부상 |
+| 2026-08-21 | trend       | OpenAI 아스트라 '크리티컬' 사이버보안 등급 판정과 프론티어 훈련 일시중단                      |
