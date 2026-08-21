@@ -200,3 +200,7 @@
 | 2026-08-21 | ai-concept  | 하이브리드 상태공간모델(Hybrid State Space Model, SSM·Mamba) — 어텐션과 맘바를 결합한 긴 문맥 저비용 아키텍처 |
 | 2026-08-21 | audit       | PCAOB 표준제정 우선순위 공개의견수렴(Standard-Setting Prioritization) — AI·기술이 핵심 테마로 부상 |
 | 2026-08-21 | trend       | OpenAI 아스트라 '크리티컬' 사이버보안 등급 판정과 프론티어 훈련 일시중단                      |
+| 2026-08-22 | agentic-coding | 오르카(Orca) — git worktree 기반 멀티 CLI 에이전트 오케스트레이션 ADE(Stably AI)         |
+| 2026-08-22 | ai-concept  | AI 에이전트 메모리(Agent Memory)와 ACE(Agentic Context Engineering)                       |
+| 2026-08-22 | audit       | 중소회계법인협의회 AI 감사플랫폼(Audit Master)과 공동품질관리제도 추진                    |
+| 2026-08-22 | trend       | 앤트로픽 2026년 8월 리스크 리포트 — 미스얼라인먼트 위험등급 상향과 미공개 모델 Model 2      |
